@@ -1,0 +1,35 @@
+/*
+alt+shift+f -> выравнивание по отступам
+.test+tab -> <div class="test"></div>
+img.test+tab -> <img src="" alt="" class="test">
+h2.test>img.test2+tab -> <h2 class="test"><img src="" alt="" class="test2"></h2>
+ctrl+k+c -> закомм.
+ctrl+k+u -> раскомм.
+*/
+
+.header__square-pic_rotate {
+  /*animation-name: pic-rotation;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;*/
+  animation: pic-rotation 20s linear infinite;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* overflow: hidden; */
+
+.section-title {
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.rosources__logo {
+  list-style: none;
+}

@@ -1,0 +1,12 @@
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+  display: grid;
+  width: 92.5%;
+  /* height: 671px; */
+  /* margin: 92px calc((100% - 92.5%) / 2) 0; */
+  margin-top: 92px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
+}
