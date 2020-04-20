@@ -8,7 +8,8 @@
 @import url(./__paragraph/_bottom/place__paragraph_bottom.css);
 
 .place {
-  width: 76.9%;
+  /* width: 76.9%; */
+  width: 100%;
   display: grid;
   grid-template-columns: 47% auto;
   grid-gap: 48px 40px;
