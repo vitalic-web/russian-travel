@@ -8,4 +8,4 @@
 Учебный проект Яндекс.Практикума. Адаптивный сайт для разрешений от 320px до бесконечности.
 Используются технологии: html, css, flex, grid.
 
-**Адрес сайта:** https://vitalic-web.github.io/russian-travel/
+**Адрес сайта:** https://vitalic-web.github.io/russian-travel/index.html
