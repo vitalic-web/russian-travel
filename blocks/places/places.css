@@ -1,7 +1,25 @@
 .places {
-  width: 76.9%;
+  width: calc(100% * 984/1280);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 92px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places {
+    width: calc(100% * 928/1024);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places {
+    width: calc(100% * 720/768);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places {
+    width: 100vw;
+  }
 }

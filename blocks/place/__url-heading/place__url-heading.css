@@ -6,3 +6,9 @@
   line-height: 1;
   letter-spacing: 0.2em;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__url-heading {
+    display: none;
+  }
+}

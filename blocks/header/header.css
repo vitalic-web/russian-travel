@@ -2,10 +2,29 @@
 @import url(./__lang/header__lang.css);
 @import url(./__lang/_switch/header__lang_switch_en.css);
 @import url(./__lang/_switch/header__lang_switch_ru.css);
+@import url(./__link/header__link.css);
 
 .header {
-  width: 92.5%;
-  /* height:  */
+  width: calc(100% * 1184/1280);
   display: flex;
   justify-content: space-between;
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    width: calc(100% * 928/1024);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    width: calc(100% * 720/768);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    width: calc(100% * 288/320);
+  }
 }

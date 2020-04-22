@@ -3,7 +3,26 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
-  max-width: 73.2%;
-  /* max-height: 200px; */
+  max-width: calc(100% * 720/984);
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+    max-width: calc(100% * 720/928);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__title {
+    max-width: calc(100% * 720/768);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__title {
+    max-width: calc(100vw * 288/320);
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }

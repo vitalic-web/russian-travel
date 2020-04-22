@@ -1,12 +1,11 @@
 .page {
-  width: 100%;
+  min-height: 100%;
   background-color: #2A2C2F;
-  padding-top: 30px;
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  flex-direction: column; */
-  /* display: grid; */
-
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
