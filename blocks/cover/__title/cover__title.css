@@ -23,6 +23,6 @@
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
-    width: calc(100% * 288/320);
+    width: 79vw;
   }
 }
